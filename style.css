@@ -1,0 +1,119 @@
+body {
+    background-color: #bdb2ff;
+    color: #F3F1F5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.board {
+    height: 300px;
+    width: 900px;
+    background-color: #e5d4ef;
+    border-radius: 50px;
+    display: flex;
+    box-shadow: 0 4px 2px -2px black;
+}
+
+.outer-right-store {
+    background-color:#d7f9f8;
+    height: 238px;
+    padding: 0.5rem;
+    width: 100px;
+    border-radius: 20px;
+    margin: 1.5rem;
+    box-shadow: 0px 1px 6px 1px #5e87f5 inset;
+  }
+
+
+  .outer-left-store {
+    background-color:#d7f9f8;
+    height: 238px;
+    padding: 0.5rem;
+    width: 100px;
+    border-radius: 20px;
+    margin: 1.5rem;
+    box-shadow: 0px 1px 6px 1px #5e87f5 inset;
+  }
+
+.top-row {
+    /*background-color: #c095e4;
+    width: 400px;
+    height: 100px;*/
+    margin-top: -.5rem;
+    display: flex;
+    /* position: fixed; */
+}
+
+.bottom-row {
+    /*background-color: #c095e4;
+    width: 400px;
+    height: 100px;*/
+    margin-top: 2rem;
+    display: flex;
+    /* position: fixed; */
+}
+
+
+#pit1-top {
+    background-color: #58508d;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 6px 1px black inset;
+
+}
+
+#pit-btm {
+    background-color: #58508d;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 6px 1px black inset;
+
+}
+
+.pits {
+    padding: 0.5rem;
+    margin-top: 1.3rem;
+    height: 238px;
+    width: 600px;
+    background-color: #d7f9f8;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.marbles {
+    margin: 15px;
+    background-color: #fff0d4;
+    box-shadow: 0 4px 2px -2px black;
+    border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}

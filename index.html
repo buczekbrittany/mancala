@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mancala Board Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="UTF-8" defer></script>
+</head>
+<body>
+<h1>Mancala Board Game</h1>
+<button id="play">Start Game</button>
+<p>Time: <span id="minutes">0</span>:<span id="seconds">0</span></p>
+<div>
+    <h3>Computer</h3>
+    <h3 id="playerName">Player 1</h3>
+    <input id="input" placeholder="Type name here">
+    <button id="submit">Submit</button>
+</div>
+<section class="board">
+
+    
+    <section class="section outer-left-store">
+        <section class="left-store"></section>
+    </section>
+    
+    <section class="pits">
+        <section class="top-row">
+            <div class="pit1-top" id="pit1-top"><section class="marbles"></section></div>
+            <div class="pit2-top" id="pit1-top"></div>
+            <div class="pit3-top" id="pit1-top"></div>
+            <div class="pit4-top" id="pit1-top"></div>
+            <div class="pit5-top" id="pit1-top"></div>
+            <div class="pit6-top" id="pit1-top"></div>
+        </section>
+        <section class="bottom-row">
+            <div class="pit1-btm" id="pit-btm" ></div>
+            <div class="pit2-btm" id="pit-btm"></div>
+            <div class="pit3-btm" id="pit-btm"></div>
+            <div class="pit4-btm" id="pit-btm"></div>
+            <div class="pit5-btm" id="pit-btm"></div>
+            <div class="pit6-btm" id="pit-btm"></div>
+        </section>
+    </section>
+
+    <section class="section outer-right-store">
+        <section class="right-store"></section>
+    </section>
+
+</section>
+<h1>By Brittany Buczek</h1>
+</body>
+</html>
+
+<!--
+    
+Mancala Rules:
+
+- 48 marbles, any color
+- Each players gets 24 marbles
+- Who goes first is randomly selected, like a coin flip
+
+01.) Player 1 grabs all stones from any one pit on theire side
+     Drops them one by one into each pit, going in a clockwise
+     direction
+02.) If player passes over one of the stores, place one in there too
+03.) Once the player doesn't have any more stones, it's the other
+     player's turn to do the same thing
+04.) Game ends when one player has empited the six holes of stones
+     on their side
+
+
+
+
+-->
